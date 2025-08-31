@@ -1,0 +1,46 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.header-top {
+  background: #222;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+.tagline {
+  margin: 5px 0 20px;
+}
+
+.main-nav a {
+  margin: 0 10px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.videos, .rubriques {
+  padding: 20px;
+}
+
+.video-grid, .rubrique-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 15px;
+}
+
+.video-card, .rubrique {
+  background: #f2f2f2;
+  padding: 40px 20px;
+  text-align: center;
+  border-radius: 4px;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background: #222;
+  color: #fff;
+}
